@@ -15,7 +15,7 @@ src/textSummarizer/conponents/data_validation.py
 src/textSummarizer/conponents/model_evaluation.py
 src/textSummarizer/conponents/model_trainer.py
 src/textSummarizer/constants/__init__.py
-src/textSummarizer/enity/__init__.py
+src/textSummarizer/entity/__init__.py
 src/textSummarizer/logging/__init__.py
 src/textSummarizer/pipeline/__init__.py
 src/textSummarizer/pipeline/stage_01_data_ingestion.py

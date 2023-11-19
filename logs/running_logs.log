@@ -48,3 +48,212 @@ Source-Age: 0
 [2023-11-19 20:34:56,271: INFO:      common: created directory at: artifacts]
 [2023-11-19 20:34:56,271: INFO:      common: created directory at: artifacts/model_evaluation]
 [2023-11-19 20:35:10,657: INFO:      rouge_scorer: Using default tokenizer.]
+[2023-11-19 21:28:51,131: INFO:      main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-19 21:28:51,132: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:28:51,133: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:28:51,133: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:28:51,133: INFO:      common: created directory at: artifacts/data_ingestion]
+[2023-11-19 21:28:52,437: INFO:      data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DE90:22B3AF:628768:7CD28E:655A1BA3
+Accept-Ranges: bytes
+Date: Sun, 19 Nov 2023 14:28:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1230-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1700404132.515907,VS0,VE559
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: eb05ea62cae0fdf174fc7b63f520893bbfbf2f1d
+Expires: Sun, 19 Nov 2023 14:33:52 GMT
+Source-Age: 0
+
+]
+[2023-11-19 21:28:52,527: INFO:      main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:33:13,995: INFO:      main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-19 21:33:13,997: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:33:13,997: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:33:13,997: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:33:13,997: INFO:      common: created directory at: artifacts/data_ingestion]
+[2023-11-19 21:33:22,926: INFO:      data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DE90:22B3AF:628768:7CD28E:655A1BA3
+Accept-Ranges: bytes
+Date: Sun, 19 Nov 2023 14:33:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1247-QPG
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1700404395.837161,VS0,VE3
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f7d0860449430dbf5db6a07a63c528429408753c
+Expires: Sun, 19 Nov 2023 14:38:14 GMT
+Source-Age: 263
+
+]
+[2023-11-19 21:33:23,019: INFO:      main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:33:23,019: INFO:      main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-11-19 21:33:23,020: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:33:23,021: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:33:23,021: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:33:23,021: INFO:      common: created directory at: artifacts/data_validation]
+[2023-11-19 21:33:23,022: INFO:      main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:33:23,022: INFO:      main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-11-19 21:33:23,023: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:33:23,024: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:33:23,024: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:33:23,024: INFO:      common: created directory at: artifacts/data_transformation]
+[2023-11-19 21:33:24,773: INFO:      main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:33:24,773: INFO:      main: *******************]
+[2023-11-19 21:33:24,773: INFO:      main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-11-19 21:33:24,775: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:33:24,776: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:33:24,776: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:33:24,776: INFO:      common: created directory at: artifacts/model_trainer]
+[2023-11-19 21:33:52,079: ERROR:      main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 11.76 GiB total capacity; 10.11 GiB already allocated; 339.81 MiB free; 10.49 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF]
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    model_trainer.main()
+  File "/home/gom/Workspace/jobsum/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/gom/Workspace/jobsum/src/textSummarizer/conponents/model_trainer.py", line 56, in train
+    trainer.train()
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/transformers/trainer.py", line 1555, in train
+    return inner_training_loop(
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/transformers/trainer.py", line 1860, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/transformers/trainer.py", line 2734, in training_step
+    self.accelerator.backward(loss)
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/accelerate/accelerator.py", line 1989, in backward
+    loss.backward(**kwargs)
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 11.76 GiB total capacity; 10.11 GiB already allocated; 339.81 MiB free; 10.49 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-11-19 21:34:49,454: INFO:      main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-19 21:34:49,456: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:34:49,457: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:34:49,457: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:34:49,457: INFO:      common: created directory at: artifacts/data_ingestion]
+[2023-11-19 21:34:49,457: INFO:      data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-11-19 21:34:49,550: INFO:      main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:34:49,550: INFO:      main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-11-19 21:34:49,551: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:34:49,552: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:34:49,552: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:34:49,552: INFO:      common: created directory at: artifacts/data_validation]
+[2023-11-19 21:34:49,552: INFO:      main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:34:49,552: INFO:      main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-11-19 21:34:49,553: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:34:49,554: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:34:49,554: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:34:49,554: INFO:      common: created directory at: artifacts/data_transformation]
+[2023-11-19 21:34:50,432: INFO:      main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:34:50,433: INFO:      main: *******************]
+[2023-11-19 21:34:50,433: INFO:      main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-11-19 21:34:50,434: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:34:50,435: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:34:50,435: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:34:50,435: INFO:      common: created directory at: artifacts/model_trainer]
+[2023-11-19 21:35:17,075: ERROR:      main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 11.76 GiB total capacity; 10.11 GiB already allocated; 337.81 MiB free; 10.49 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF]
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    model_trainer.main()
+  File "/home/gom/Workspace/jobsum/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/gom/Workspace/jobsum/src/textSummarizer/conponents/model_trainer.py", line 56, in train
+    trainer.train()
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/transformers/trainer.py", line 1555, in train
+    return inner_training_loop(
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/transformers/trainer.py", line 1860, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/transformers/trainer.py", line 2734, in training_step
+    self.accelerator.backward(loss)
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/accelerate/accelerator.py", line 1989, in backward
+    loss.backward(**kwargs)
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/gom/miniconda3/envs/env/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 11.76 GiB total capacity; 10.11 GiB already allocated; 337.81 MiB free; 10.49 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-11-19 21:36:33,764: INFO:      main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-19 21:36:33,765: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:36:33,766: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:36:33,766: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:36:33,766: INFO:      common: created directory at: artifacts/data_ingestion]
+[2023-11-19 21:36:33,766: INFO:      data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-11-19 21:36:33,859: INFO:      main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:36:33,860: INFO:      main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-11-19 21:36:33,862: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:36:33,863: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:36:33,863: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:36:33,863: INFO:      common: created directory at: artifacts/data_validation]
+[2023-11-19 21:36:33,863: INFO:      main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:36:33,863: INFO:      main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-11-19 21:36:33,864: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:36:33,865: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:36:33,865: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:36:33,865: INFO:      common: created directory at: artifacts/data_transformation]
+[2023-11-19 21:36:35,273: INFO:      main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-11-19 21:36:35,273: INFO:      main: *******************]
+[2023-11-19 21:36:35,273: INFO:      main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-11-19 21:36:35,274: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 21:36:35,275: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 21:36:35,275: INFO:      common: created directory at: artifacts]
+[2023-11-19 21:36:35,275: INFO:      common: created directory at: artifacts/model_trainer]
+[2023-11-19 22:00:09,139: INFO:      main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-11-19 22:00:09,140: INFO:      main: *******************]
+[2023-11-19 22:00:09,140: INFO:      main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-11-19 22:00:09,141: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 22:00:09,142: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 22:00:09,142: INFO:      common: created directory at: artifacts]
+[2023-11-19 22:00:09,142: INFO:      common: created directory at: artifacts/model_evaluation]
+[2023-11-19 22:00:21,026: INFO:      rouge_scorer: Using default tokenizer.]
+[2023-11-19 22:00:21,086: INFO:      main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]

@@ -3,6 +3,7 @@ __pycache__
 .ipynb_checkpoints
 
 pegasus-samsum-model
+artifacts
 
 *.tar
 *.rar
