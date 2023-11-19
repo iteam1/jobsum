@@ -31,3 +31,11 @@ Expires: Sun, 19 Nov 2023 11:04:08 GMT
 Source-Age: 0
 
 ]
+[2023-11-19 18:28:34,553: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 18:28:34,554: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 18:28:34,555: INFO:      common: created directory at: artifacts]
+[2023-11-19 18:28:34,555: INFO:      common: created directory at: artifacts/data_validation]
+[2023-11-19 19:28:54,048: INFO:      common: yaml file: config/config.yaml loaded successfully]
+[2023-11-19 19:28:54,050: INFO:      common: yaml file: params.yaml loaded successfully]
+[2023-11-19 19:28:54,050: INFO:      common: created directory at: artifacts]
+[2023-11-19 19:28:54,051: INFO:      common: created directory at: artifacts/data_transformation]
