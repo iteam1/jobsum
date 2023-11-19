@@ -7,6 +7,8 @@ summary job requirements
 
 [itviec](https://itviec.com/)
 
+[google/pegasus-cnn_dailymail](https://huggingface.co/google/pegasus-cnn_dailymail)
+
 [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
 
 [Text-Summarization-NLP-Project](https://github.com/krishnaik06/Text-Summarization-NLP-Project)

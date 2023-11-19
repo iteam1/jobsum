@@ -2,6 +2,8 @@ env
 __pycache__
 .ipynb_checkpoints
 
+pegasus-samsum-model
+
 *.tar
 *.rar
 *.zip
