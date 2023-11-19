@@ -4,6 +4,7 @@ __pycache__
 
 pegasus-samsum-model
 artifacts
+tmp
 
 *.tar
 *.rar

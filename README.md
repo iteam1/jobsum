@@ -45,7 +45,7 @@ summary job requirements
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s
+    - Save the URI: 217423437775.dkr.ecr.ap-southeast-2.amazonaws.com/text-s
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -87,6 +87,8 @@ summary job requirements
 
 
 # references
+
+[quackr](https://quackr.io/)
 
 [quillbot](https://quillbot.com/summarize)
 
