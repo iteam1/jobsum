@@ -9,6 +9,6 @@ summary job requirements
 
 [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
 
-[Text-Summarization-NLP-Proj](https://github.com/krishnaik06/Text-Summarization-NLP-Project)
+[Text-Summarization-NLP-Project](https://github.com/krishnaik06/Text-Summarization-NLP-Project)
 
 [End To End NLP Project Implementation With Deployment Github Action- Text Summarization- Krish Naik](https://www.youtube.com/watch?v=p7V4Aa7qEpw)
