@@ -1,2 +1,2 @@
 1. Init template
-2. Requirements
+2. Virtual environment + Requirements
