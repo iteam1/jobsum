@@ -46,12 +46,10 @@ summary job requirements
 	
 ## 3. Create ECR repo to store/save docker image
     - Save the URI: 217423437775.dkr.ecr.ap-southeast-2.amazonaws.com/text-s
-
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
 ## 5. Open EC2 and Install docker in EC2 Machine:
-	
 	
 	#optinal
 
@@ -72,7 +70,6 @@ summary job requirements
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
-
 # 7. Setup github secrets:
 
     AWS_ACCESS_KEY_ID=
@@ -84,7 +81,6 @@ summary job requirements
     AWS_ECR_LOGIN_URI = demo>>  217423437775.dkr.ecr.ap-southeast-2.amazonaws.com
 
     ECR_REPOSITORY_NAME = text-s
-
 
 # references
 
