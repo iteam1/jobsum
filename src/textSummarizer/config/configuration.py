@@ -8,6 +8,7 @@ from textSummarizer.entity import (DataIngestionConfig,
 
 
 class ConfigurationManager:
+
     def __init__(
         self,
         config_filepath = CONFIG_FILE_PATH,
@@ -18,7 +19,6 @@ class ConfigurationManager:
 
         create_directories([self.config.artifacts_root])
 
-    
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
@@ -34,7 +34,6 @@ class ConfigurationManager:
 
         return data_ingestion_config
     
-
 
     def get_data_validation_config(self) -> DataValidationConfig:
         config = self.config.data_validation
@@ -63,7 +62,6 @@ class ConfigurationManager:
 
         return data_transformation_config
     
-
 
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
