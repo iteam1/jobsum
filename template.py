@@ -30,7 +30,8 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trial.ipynb",
-    "test.py"
+    "test.py",
+    "docs/note.txt",
 ]
 
 # check files and folder in template
