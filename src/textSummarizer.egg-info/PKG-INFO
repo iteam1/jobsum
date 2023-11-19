@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: textSummarizer
+Version: 0.0.1
+Summary: a python package for NLP app
+Home-page: https://github.com/iteam1/jobsum
+Author: iteam1
+Author-email: 
+Project-URL: Bug Tracker, https://github.com/iteam1            /jobsum/issues
+License-File: LICENSE
+
+# jobsum
+summary job requirements
+
+# references
+
+[quillbot](https://quillbot.com/summarize)
+
+[itviec](https://itviec.com/)
+
+[Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+
+[Text-Summarization-NLP-Proj](https://github.com/krishnaik06/Text-Summarization-NLP-Project)
+
+[End To End NLP Project Implementation With Deployment Github Action- Text Summarization- Krish Naik](https://www.youtube.com/watch?v=p7V4Aa7qEpw)

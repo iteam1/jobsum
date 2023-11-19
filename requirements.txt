@@ -9,7 +9,7 @@ nltk
 tqdm
 PyYAML
 matplotlib
-torch==1.13.1+cu117
+torch==1.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 notebook
 boto3
 mypy-boto3-s3
